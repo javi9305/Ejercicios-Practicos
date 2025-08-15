@@ -6,7 +6,7 @@ package Ciclos;
  * @author javie
  */
 
-//sucesion de fibonacci : 1,1,2,3,5,8,13,12,34,55,89
+//sucesion de fibonacci : 1,1,2,3,5,8,13,22,35,57
 public class SucesionFibonacci {
     public static void main(String[] args) {
         calcularFibonacci();
