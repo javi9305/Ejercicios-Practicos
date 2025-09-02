@@ -33,7 +33,14 @@ public class cuentaBancaria {
         
    
     }
+    /*
+     private boolean saldoDisponible(double monto){
+     return saldo >=monto;
     
+    este metodo puede ir dentro de un if
+    }
+    
+    */
     
     public void retirar(double monto){
         if(monto <= 0){
