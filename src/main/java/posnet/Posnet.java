@@ -16,10 +16,10 @@ public class Posnet {
          if(tarjeta.tieneSaldoDisponible(montoFinal)){
            tarjeta.descontar(montoFinal);
            
-           String nomApe = tarjeta.nombreCompletoTitular();
+           String nomApellido = tarjeta.nombreCompletoTitular();
            double montoPorCuota = montoFinal /cantidadCuotas;
            
-           elTicket = new Ticket(nomApe,montoFinal,montoPorCuota);
+           elTicket = new Ticket(nomApellido,montoFinal,montoPorCuota);
          }
         }
         

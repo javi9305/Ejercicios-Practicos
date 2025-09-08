@@ -5,7 +5,7 @@ package posnet;
 public class Principal {
     public static void main(String[] args) {
     Posnet posnet = new Posnet();
-    Persona p = new Persona("403030","Pepe","lopez","2321212","pepelop@gmail.com");
+    Persona p = new Persona("403030","Pepe","lopez","2321212","pepelopez@gmail.com");
     TarjetaDeCredito t = new TarjetaDeCredito("FakeBank","12345332333333",15000,EntidadFinanciera.BIRZA,p);  
     
         System.out.println("Tarjeta antes del pago");

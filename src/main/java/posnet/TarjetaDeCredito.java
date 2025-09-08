@@ -3,11 +3,11 @@ package posnet;
 
 
 public class TarjetaDeCredito {
- private String entidadBancaria;
- private String nroTarjeta;
+ private final String entidadBancaria;
+ private final String nroTarjeta;
  private double saldo;
- private EntidadFinanciera entidadFinanciera;
- private Persona titular;
+ private final EntidadFinanciera entidadFinanciera;
+ private final Persona titular;
 
     public TarjetaDeCredito(String entidadBancaria, String nroTarjeta, double saldo, EntidadFinanciera entidadFinanciera, Persona titular) {
         this.entidadBancaria = entidadBancaria;

@@ -2,5 +2,5 @@
 package posnet;
 
 public enum EntidadFinanciera {
-    BIRZA,CASTERMARD;
+    BIRZA,CASTERMARD,AMERICANEXPRESS;
 }
