@@ -18,11 +18,11 @@ public class Ticket {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Ticket{");
+        sb.append("Ticket");
         sb.append("numero=").append(numero);
         sb.append(", fechaCompra=").append(fechaCompra);
         sb.append(", DNIPersona=").append(DNIPersona);
-        sb.append('}');
+       
         return sb.toString();
     }
     
